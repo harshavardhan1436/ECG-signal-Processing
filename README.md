@@ -10,20 +10,33 @@ Cardiovascular diseases remain one of the leading causes of death worldwide. Ear
 
 Features:
 1.Noise removal including baseline wander, power line interference, and muscle artifacts
+
 2.Implementation of the Pan-Tompkins algorithm for QRS complex detection
+
 3.Calculation of heart rate and R-R interval variability metrics
+
 4.Detection of common heart-related diseases such as bradycardia, tachycardia, arrhythmia, and atrial fibrillation
+
 5.Visualization tools for signal quality validation and diagnosis confirmation
+
+
 6.Modular MATLAB codebase for easy extension and research use
 
 Installation and Usage:
 1.Requires MATLAB with Signal Processing Toolbox.
+
 2.Clone or download this repository.
+
 3.Load the ECG data (can use synthetic or real ECG signals).
+
 4.Run the preprocessing scripts to filter and clean the signal.
+
 5.Execute the QRS detection algorithm (Pan-Tompkins).
+
 6.Calculate heart rate and variability metrics.
+
 7.Use the visualization tools to analyze results.
+
 8.Disease detection scripts simulate common cardiac conditions.
 
 Data:
@@ -31,8 +44,10 @@ The project supports both synthetic ECG data generation for algorithm testing an
 
 Outcome and Accuracy:
 1.Noise removal achieves clear ECG signal without distortion.
-2.Over 98% accuracy in QRS complex detection.
-3.Reliable heart rate calculation and variability analysis.
-4.Automated detection and simulation of heart diseases.
-5.Visualizations for clinical validation.
+
+2.Reliable heart rate calculation and variability analysis.
+
+3.Automated detection and simulation of heart diseases.
+
+4.Visualizations for clinical validation.
 
